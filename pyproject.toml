@@ -8,4 +8,6 @@ dependencies = [
     "jupyter>=1.1.1",
     "notebook>=7.6.3",
     "openai>=3.26.1",
+    "python-dotenv>=1.2.4",
+    "toyaikit>=0.0.11",
 ]

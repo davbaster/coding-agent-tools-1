@@ -2,12 +2,12 @@ import json
 import os
 from unittest import result
 from openai import OpenAI
-from see_file_tree import see_file_tree
-from read_file import read_file
+from project_tools import see_file_tree
+from project_tools import read_file
 
 api_key = os.environ.get("OPENAI_API_KEY")
 openai_client = OpenAI(api_key=api_key)
-model = "gpt-4o"  # or your preferred model
+model = "gpt-6-luna"  # or your preferred model
 
 # Tool schema
 see_file_tree_description = {
